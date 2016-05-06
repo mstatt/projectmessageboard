@@ -24,6 +24,7 @@ Task Management,
 -------------------------------------------------------------------
 Set up is pretty easy, drop the files in the site directory,
 Ensure mysqlsql is installed,
+Create a blank database named "project_communication" (pay very close attention in the event your hosting provider prepends the dbname)
 Edit the config file in the library directory edidt the session vars to reflect your domain, emails, etc.
 edit the dbsettings file in the database directory with your host, user, dbname, and password.
 edit the set-up.sql script by replacing admin@admin.com and password with whatever you choose.
